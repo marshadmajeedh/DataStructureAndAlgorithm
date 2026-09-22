@@ -1,0 +1,9 @@
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] temperatures = {73,74,75,71,69,72,76,73};
+        int[] waitingDays = ReturnWaitingDays.daysUntilAWarmerTemperature(temperatures);
+        System.out.println(Arrays.toString(waitingDays));
+    }
+}
